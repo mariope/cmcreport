@@ -11,6 +11,7 @@
 #' readCMCreport("../myCMCreports/Historico20160909.csv")
 #' operations <- readCMCreport("../myCMCreports/Historico20160909.csv")
 #' @seealso \url{https://www.cmcmarkets.com/}
+#' @export
 readCMCreport <- function(file) {
    # internal functions
       parseCSV <- function(df) {

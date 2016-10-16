@@ -11,6 +11,7 @@
 #' performanceCMCreport(readCMCreport("../myCMCreports/Historico20160909.csv"))
 #' @seealso \url{https://www.cmcmarkets.com/}
 # Calculate operation's basic statistic
+#' @export
 performanceCMCreport <- function(df) {
    agrupar <- function(opes) {
       P3 <- vector('numeric'); pP3 <- vector('numeric')

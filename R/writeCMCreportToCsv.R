@@ -9,8 +9,9 @@
 #' writeCMCreportToCsv(operations)
 #' @seealso \url{https://www.cmcmarkets.com/}
 # cargar el resultado de leerOperaciones en un excel
+#' @export
 writeCMCreportToCsv <- function(df) {
    df <- df[order(df$FechaEntrada, decreasing = TRUE), ]
-   write.xlsx(df, file = "../CMC Markets/operacionesR.xlsx", sheetName = "operaciones", row.names = FALSE)
+   xlsx::write.xlsx(df, file = "../CMC Markets/operacionesR.xlsx", sheetName = "operaciones", row.names = FALSE)
    print("Excel writed: ../CMC Markets/operacionesR.xlsx")
 }
