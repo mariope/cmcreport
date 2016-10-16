@@ -7,7 +7,7 @@
 readCMCreport(file)
 }
 \arguments{
-\item{report}{exported from CMC Market as csv file}
+\item{file}{report exported from CMC Market as csv file}
 }
 \value{
 data.frame of operations one by one and added useful info and

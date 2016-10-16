@@ -4,7 +4,7 @@
 #' to add useful information and statistics calculations.
 #'
 #' @author Mario Pisa
-#' @param report exported from CMC Market as csv file
+#' @param file report exported from CMC Market as csv file
 #' @return data.frame of operations one by one and added useful info and
 #'    calculations.
 #' @examples
