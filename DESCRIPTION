@@ -1,0 +1,21 @@
+Package: cmcreport
+Type: Package
+Date: 2016-09-24
+Title: Parse CMC Markets report
+Encoding: UTF-8
+Version: 0.1.0.9000
+Authors@R: c(person("Mario Pisa", "Developer", role = c("aut", "cre"),
+		     email = "mario.pisa@gmail.com"))
+Author: Mario Pisa Peña [aut, cre]
+Maintainer: Mario Pisa <mario.pisa@gmail.com>
+Depends:
+   R (>= 3.1.0)
+Imports:
+   quantmod (>= 0.4)
+Suggests:
+Description: Parse and analyze a exported operations report from CMC Markets CfD broker.
+License: GPL-3 | file LICENSE
+LazyData: NA
+URL:  https://github.com/mariope/cmcreport
+BugReports: https://github.com/mariope/cmcreport/issues
+RoxygenNote: 5.0.1
