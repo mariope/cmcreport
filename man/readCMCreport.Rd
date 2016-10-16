@@ -18,8 +18,8 @@ data.frame of operations one by one and added useful info and
 to add useful information and statistics calculations.
 }
 \examples{
-readCMCreport("../myCMCreports/Historico20160909.csv")
-operations <- readCMCreport("../myCMCreports/Historico20160909.csv")
+\dontrun{readCMCreport("../myCMCreports/Historico20160909.csv")}
+\dontrun{operations <- readCMCreport("../myCMCreports/Historico20160909.csv")}
 }
 \author{
 Mario Pisa

@@ -8,8 +8,8 @@
 #' @return data.frame of operations one by one and added useful info and
 #'    calculations.
 #' @examples
-#' readCMCreport("../myCMCreports/Historico20160909.csv")
-#' operations <- readCMCreport("../myCMCreports/Historico20160909.csv")
+#' \dontrun{readCMCreport("../myCMCreports/Historico20160909.csv")}
+#' \dontrun{operations <- readCMCreport("../myCMCreports/Historico20160909.csv")}
 #' @seealso \url{https://www.cmcmarkets.com/}
 #' @export
 readCMCreport <- function(file) {

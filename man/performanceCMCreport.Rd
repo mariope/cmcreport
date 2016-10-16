@@ -17,8 +17,8 @@ screen print lines
 plot key indicators.
 }
 \examples{
-performanceCMCreport(operations)
-performanceCMCreport(readCMCreport("../myCMCreports/Historico20160909.csv"))
+\dontrun{performanceCMCreport(operations)}
+\dontrun{performanceCMCreport(readCMCreport("../myCMCreports/Historico20160909.csv"))}
 }
 \author{
 Mario Pisa

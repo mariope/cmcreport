@@ -16,7 +16,7 @@ csv file
 \code{writeCMCreportToCsv} returns a csv file with one operation per row.
 }
 \examples{
-writeCMCreportToCsv(operations)
+\dontrun{writeCMCreportToCsv(operations)}
 }
 \author{
 Mario Pisa
