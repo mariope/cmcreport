@@ -42,7 +42,7 @@ Read a CMC report and generate a data.frame by operations.
 
 ### performanceCMCreport(operations)
 
-Make a performance analysis of operations
+Make operations performance analysis
 
 ```
 > performanceCMCreport(operations)
@@ -50,7 +50,7 @@ Make a performance analysis of operations
 
 ### displayCMCperformance(operations) -TODO
 
-Display a performance analysis of operations
+Display operations performance analysis
 
 ```
 > displayCMCperformance(operations)
