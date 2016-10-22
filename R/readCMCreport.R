@@ -120,14 +120,14 @@ readCMCreport <- function(file) {
    }
       # extract complete operations from dataframe given by parseCSV
       readOperations <- function(df) {
-         # ATENCION: SOLO FUNCIONA SI LAS OPERACIONES COMPLETAS SON CONSECUTIVAS SI MEZCLA HAY QUE REPENSAR LOS INDICES Y SI CIERRO UNA COMPRA EN DOS OPERACIONES FALLARÁ TB.
+         # ATENCION: SOLO FUNCIONA SI LAS OPERACIONES COMPLETAS SON CONSECUTIVAS SI MEZCLA HAY QUE REPENSAR LOS INDICES Y SI CIERRO UNA COMPRA EN DOS OPERACIONES FALLARA TB.
          operaciones <- data.frame()
          ii <- nrow(df)
          while (ii  >= 2) {
             subindice <- ii - 1
             for (j in subindice:1) {
                if ((df$Orden[ii] == df$Orden[j] | df$Orden[ii] == df$Orden.Relacionada[j]) &
-                   (df$Tipo...Ref[j] == "Cierre de Posición" | df$Tipo...Ref[j] == "Stop Loss Ejecutado") &
+                   (df$Tipo...Ref[j] == "Cierre de Posicion" | df$Tipo...Ref[j] == "Stop Loss Ejecutado") &
                    df$Orden[ii] != "-" & df$Tipo...Ref[ii] != "Stop Loss Pendiente Modificado") {
                   operacion <- as.character(df$Tipo...Ref[ii])
                   operacion$Producto <- df$Producto[ii]
